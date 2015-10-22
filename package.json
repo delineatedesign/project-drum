@@ -1,0 +1,13 @@
+{
+  "name": "drum-responsive",
+  "version": "0.1.0",
+  "description": "The Drum's CMS responsive theme, November 2015",
+  "author" : "@delineatedesign",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/delineatedesign/project-drum.git"
+  },
+  "license": " ",
+  "devDependencies": {
+  }
+}
