@@ -1,0 +1,61 @@
+.c-page-head {
+}
+
+.c-head-logo {
+  position: relative;
+  color: $color-white;
+  background: $base-background-color;
+  text-align: center;
+  border-top: 2px solid $color-white;
+}
+
+@media screen and (min-width: 560px) {
+  .c-head-logo {
+    text-align: left;
+  }
+}
+
+.c-head-logo-img {
+  display: block;
+  margin: $layout-spacing-unit auto 0 auto;
+  width: 206px;
+  height: 143px;
+  background: $base-background-color url('img/drum-theatre-logo-header-desktop.jpg') no-repeat;
+  text-indent: -9999px;
+}
+
+
+@media screen and (min-width: 560px) {
+  .c-head-logo-img {
+    margin: $layout-spacing-unit/2 0;
+  }
+}
+
+.site-title {
+  text-align: center;
+  margin: $layout-spacing-unit 0;
+}
+
+@media screen and (min-width: 756px) {
+  .site-title {
+    text-align: right;
+  }
+}
+
+.c-head-logo h1 {
+  margin: 0;
+  font-size: $base-font-size;
+  text-transform: uppercase;
+}
+
+
+.c-page-head .u-1-2 {
+  width: 100%;
+}
+
+@media screen and (min-width: 560px) {
+
+.c-page-head .u-1-2 {
+  width: 50%;
+}
+}

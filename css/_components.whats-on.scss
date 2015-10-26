@@ -1,0 +1,65 @@
+.c-whats-on {
+  position: relative;
+}
+header .c-whats-on {
+  background: $color-white;
+}
+
+.c-whats-on__menu {
+  position: relative;
+}
+header .c-whats-on__menu {
+  display: none;
+}
+
+
+
+a.whats-on-menu__toggle {
+  position: absolute;
+  bottom: -$layout-spacing-unit*1.25;
+  right: 0;
+  background: $color-white;
+  line-height: $base-font-size*1.125;
+  padding: $layout-spacing-unit/4 $layout-spacing-unit/2;
+  text-decoration: none;
+  font-size: $base-font-size*0.875;
+  font-weight: 600;
+  z-index: 1;
+  border-radius: 0 0 0 6px;
+  color: $base-text-color;
+}
+
+@media screen and (min-width: 560px) {
+a.whats-on-menu__toggle {
+  right: 24px;
+  border-radius: 0 0 6px 6px;
+}
+}
+
+a.whats-on-menu__toggle:hover {
+  text-decoration: underline;
+}
+
+.c-whats-on__menu li {
+  border-right: 1px solid lighten($base-text-color, 50%);
+  line-height: 1.4;
+  padding-right: 6px;
+  margin-right: 3px;
+  font-size: 14px;
+}
+
+.c-whats-on__menu li:last-child {
+  border-right: 0;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.c-whats-on__menu a {
+  text-decoration: none;
+  font-weight: 600;
+  color: $base-text-color;
+}
+
+.c-whats-on__menu a:hover {
+  text-decoration: underline;
+}

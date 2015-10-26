@@ -1,0 +1,12 @@
+/* generic list horizontal */
+
+.o-list-inline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.o-list-inline > li {
+  display: inline-block;
+  vertical-align: top;
+}

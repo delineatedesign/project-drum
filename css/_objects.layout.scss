@@ -1,0 +1,29 @@
+/* generic block */
+
+.o-layout {
+  position: relative;
+  margin-left: -$layout-spacing-unit/2;
+}
+  .o-layout__item {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: $layout-spacing-unit/2;
+  }
+
+.o-layout-large {
+  margin-left: -36px;
+}
+  .o-layout-large > .o-layout__item {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 36px;
+  }
+
+.o-layout-null {
+  margin-left: 0;
+}
+  .o-layout-null > .o-layout__item {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 0;
+  }
