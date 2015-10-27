@@ -1,0 +1,36 @@
+.c-article {
+  margin-bottom: 12px;
+}
+
+.c-article__img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.c-article__meta {
+  background: #FFFFFF;
+  position: relative;
+  padding: 12px;
+  font-size: 16px;
+  min-height: 160px;
+}
+
+.c-article__meta-date {
+  display: block;
+  font-size: 14px;
+}
+
+.c-article__meta-title {
+  margin-top: 0;
+  font-size: 1em;
+}
+
+.c-article__meta-more-info {
+  font-size: 14px;
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+
+}

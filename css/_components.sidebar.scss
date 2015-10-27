@@ -1,0 +1,19 @@
+.c-sidebar__content {
+  background: lighten($base-background-color,25%);
+  width: 100%;
+  margin-bottom: 12px;
+  display: none;
+  padding: 12px;
+  color: $base-background-color ;
+}
+
+@media screen and (min-width: 560px) {
+
+  .sidebar__toggle {
+    display: none;
+  }
+
+  .c-sidebar__content {
+    display: block !important;
+  }
+}

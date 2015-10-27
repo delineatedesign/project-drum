@@ -1,0 +1,43 @@
+.c-page-foot {
+  //background: $base-background-color;
+  color: $color-white;
+  padding: $layout-spacing-unit*2 0;
+}
+
+.c-page-foot a {
+  color: $color-white;
+  text-decoration: none;
+}
+
+.c-page-foot a:hover {
+  text-decoration: underline;
+}
+
+
+.c-page-foot__drum-meta {
+  color: lighten($base-text-color, 50%);
+  font-size: 12px;
+}
+
+
+
+.social-sprite {
+  display:inline-block;
+  vertical-align: middle;
+  width: 43px;
+  height: 43px;
+  margin-right: 12px;
+  background:#000 url('img/icon/icon-social-sprite.jpg') no-repeat  left top;
+  background-position: 0 0;
+  padding-left: 43px;
+  float: left;
+}
+
+.social-facebook .social-sprite { background-position: 0 0; }
+.social-facebook:hover .social-sprite { background-position: 0 -43px; }
+
+.social-twitter .social-sprite { background-position: -43px 0; }
+.social-twitter:hover .social-sprite { background-position: -43px -43px; }
+
+.social-flickr .social-sprite { background-position: -86px 0; }
+.social-flickr:hover .social-sprite { background-position: -86px -43px; }
