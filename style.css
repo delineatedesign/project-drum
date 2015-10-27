@@ -298,6 +298,12 @@ big {
   padding-left: 0; }
 
 /* generic list horizontal */
+.o-list-bare {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/* generic list horizontal */
 .o-list-inline {
   margin: 0;
   padding: 0;
@@ -320,7 +326,7 @@ big {
 
 .c-head-logo-img {
   display: block;
-  margin: 24px auto 0 auto;
+  margin: 48px auto 0 auto;
   width: 206px;
   height: 143px;
   background: #000 url("img/drum-theatre-logo-header-desktop.jpg") no-repeat;
@@ -358,9 +364,41 @@ big {
   color: #FFF;
   text-decoration: none; }
 
+.c-page-foot a:hover {
+  text-decoration: underline; }
+
 .c-page-foot__drum-meta {
   color: #a2a2a2;
   font-size: 12px; }
+
+.social-sprite {
+  display: inline-block;
+  vertical-align: middle;
+  width: 43px;
+  height: 43px;
+  margin-right: 12px;
+  background: #000 url("img/icon/icon-social-sprite.jpg") no-repeat left top;
+  background-position: 0 0;
+  padding-left: 43px;
+  float: left; }
+
+.social-facebook .social-sprite {
+  background-position: 0 0; }
+
+.social-facebook:hover .social-sprite {
+  background-position: 0 -43px; }
+
+.social-twitter .social-sprite {
+  background-position: -43px 0; }
+
+.social-twitter:hover .social-sprite {
+  background-position: -43px -43px; }
+
+.social-flickr .social-sprite {
+  background-position: -86px 0; }
+
+.social-flickr:hover .social-sprite {
+  background-position: -86px -43px; }
 
 .c-sidebar__content {
   background: #404040;
